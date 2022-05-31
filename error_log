@@ -1,0 +1,103 @@
+[08-May-2021 03:08:53 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/v053i45b1nek/public_html/rabiela.com/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php on line 197
+[08-May-2021 03:09:18 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/v053i45b1nek/public_html/rabiela.com/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php on line 197
+[08-May-2021 03:09:23 UTC] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\ServiceUnavailableHttpException: "Image generation in progress. Try again shortly." at /home/v053i45b1nek/public_html/rabiela.com/core/modules/image/src/Controller/ImageStyleDownloadController.php line 160
+[08-May-2021 04:00:39 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/v053i45b1nek/public_html/rabiela.com/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php on line 197
+[19-Oct-2021 19:17:19 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/v053i45b1nek/public_html/rabiela.com/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php on line 197
+[19-Oct-2021 19:19:59 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/v053i45b1nek/public_html/rabiela.com/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php on line 197
+[19-Oct-2021 19:20:11 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/v053i45b1nek/public_html/rabiela.com/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php on line 197
+[19-Oct-2021 19:56:41 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/v053i45b1nek/public_html/rabiela.com/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php on line 197
+[19-Oct-2021 19:56:50 UTC] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\ServiceUnavailableHttpException: "Image generation in progress. Try again shortly." at /home/v053i45b1nek/public_html/rabiela.com/core/modules/image/src/Controller/ImageStyleDownloadController.php line 160
+[19-Oct-2021 19:58:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/v053i45b1nek/public_html/rabiela.com/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php on line 197
+[19-Oct-2021 19:58:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /home/v053i45b1nek/public_html/rabiela.com/core/modules/system/src/Plugin/ImageToolkit/GDToolkit.php on line 197
+[24-Nov-2021 22:37:14 UTC] PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(416): PDO->__construct('mysql:host=loca...', 'i7797835_drup1', 'P.zdbKcktyGgWJX...', Array)
+#1 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(374): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(544): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(910): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(477): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(707): Drupal\Core\DrupalKernel->boot()
+#13 /home/v053i45b1nek/public_html/rabiela.com/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[24-Nov-2021 22:37:16 UTC] PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(416): PDO->__construct('mysql:host=loca...', 'i7797835_drup1', 'P.zdbKcktyGgWJX...', Array)
+#1 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(374): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(544): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(910): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(477): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(707): Drupal\Core\DrupalKernel->boot()
+#13 /home/v053i45b1nek/public_html/rabiela.com/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[29-Nov-2021 21:25:07 UTC] PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(416): PDO->__construct('mysql:host=loca...', 'i7797835_drup1', 'P.zdbKcktyGgWJX...', Array)
+#1 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(374): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(544): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(910): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(477): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(707): Drupal\Core\DrupalKernel->boot()
+#13 /home/v053i45b1nek/public_html/rabiela.com/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[29-Nov-2021 21:25:09 UTC] PDOException: SQLSTATE[08004] [1040] Too many connections in /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(416): PDO->__construct('mysql:host=loca...', 'i7797835_drup1', 'P.zdbKcktyGgWJX...', Array)
+#1 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(374): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(544): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(910): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(477): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(707): Drupal\Core\DrupalKernel->boot()
+#13 /home/v053i45b1nek/public_html/rabiela.com/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[29-Nov-2021 21:25:09 UTC] PDOException: SQLSTATE[08004] [1040] Too many connections in /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(416): PDO->__construct('mysql:host=loca...', 'i7797835_drup1', 'P.zdbKcktyGgWJX...', Array)
+#1 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(374): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(544): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(910): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(477): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/DrupalKernel.php(707): Drupal\Core\DrupalKernel->boot()
+#13 /home/v053i45b1nek/public_html/rabiela.com/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[30-May-2022 03:00:00 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 03:00:00 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 03:01:11 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 03:01:11 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 03:06:26 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 03:09:10 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 03:52:29 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 04:45:26 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 06:32:54 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 07:33:07 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 08:50:26 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 08:59:55 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 09:09:40 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 09:39:21 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 13:05:37 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 13:10:22 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
+[30-May-2022 13:37:53 UTC] Uncaught PHP Exception InvalidArgumentException: "No converter has been registered for paramconverter.latest_revision" at /home/v053i45b1nek/public_html/rabiela.com/core/lib/Drupal/Core/ParamConverter/ParamConverterManager.php line 39
