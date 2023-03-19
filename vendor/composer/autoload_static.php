@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit52e69ac68aa47046aa93d48e7f4a6039
+class ComposerStaticInit5aa7c7f902e0659059238f3428915ec7
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -411,9 +411,6 @@ class ComposerStaticInit52e69ac68aa47046aa93d48e7f4a6039
         'Drupal\\Core\\Cache\\DatabaseCacheTagsChecksum' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/Cache/DatabaseCacheTagsChecksum.php',
         'Drupal\\Core\\Database\\Connection' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/Database/Connection.php',
         'Drupal\\Core\\Database\\Database' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/Database/Database.php',
-        'Drupal\\Core\\Database\\Driver\\mysql\\Connection' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php',
-        'Drupal\\Core\\Database\\Driver\\pgsql\\Connection' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/Database/Driver/pgsql/Connection.php',
-        'Drupal\\Core\\Database\\Driver\\sqlite\\Connection' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/Database/Driver/sqlite/Connection.php',
         'Drupal\\Core\\Database\\Statement' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/Database/Statement.php',
         'Drupal\\Core\\Database\\StatementInterface' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/Database/StatementInterface.php',
         'Drupal\\Core\\DependencyInjection\\Container' => __DIR__ . '/../..' . '/core/lib/Drupal/Core/DependencyInjection/Container.php',
@@ -425,6 +422,7 @@ class ComposerStaticInit52e69ac68aa47046aa93d48e7f4a6039
         'JsonException' => __DIR__ . '/..' . '/symfony/polyfill-php73/Resources/stubs/JsonException.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'PEAR_Exception' => __DIR__ . '/..' . '/pear/pear_exception/PEAR/Exception.php',
+        'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
@@ -433,11 +431,11 @@ class ComposerStaticInit52e69ac68aa47046aa93d48e7f4a6039
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit52e69ac68aa47046aa93d48e7f4a6039::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit52e69ac68aa47046aa93d48e7f4a6039::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit52e69ac68aa47046aa93d48e7f4a6039::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInit52e69ac68aa47046aa93d48e7f4a6039::$fallbackDirsPsr0;
-            $loader->classMap = ComposerStaticInit52e69ac68aa47046aa93d48e7f4a6039::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit5aa7c7f902e0659059238f3428915ec7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit5aa7c7f902e0659059238f3428915ec7::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit5aa7c7f902e0659059238f3428915ec7::$prefixesPsr0;
+            $loader->fallbackDirsPsr0 = ComposerStaticInit5aa7c7f902e0659059238f3428915ec7::$fallbackDirsPsr0;
+            $loader->classMap = ComposerStaticInit5aa7c7f902e0659059238f3428915ec7::$classMap;
 
         }, null, ClassLoader::class);
     }
